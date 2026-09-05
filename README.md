@@ -9,6 +9,14 @@ This repo has everything needed to build one from scratch: the 3D-printable
 case, the PCB design and fabrication files, ready-to-flash firmware, and
 the full assembly guide below.
 
+The layout is inspired by the original TOTEM — a printed test of that
+shape was comfortable enough for my hands that I built the rest of this
+board around it, redesigning the PCB and case for MX switches from
+scratch. The XIAO boards sit on hot-swap headers rather than being
+soldered in directly, so they can move to a different project later if
+needed. Currently FDM printed in PLA with no tenting solution yet — both
+are on the list for a future revision.
+
 ## Contents
 
 - [What's in this repo](#whats-in-this-repo)
@@ -204,23 +212,15 @@ the dongle's out of reach.
 **Want to build it yourself, or modify it?** The buildable source and
 GitHub Actions build workflow live in a separate repo,
 [zmk-config-spirittotem](https://github.com/The-Architects727/zmk-config-spirittotem),
-released under the MIT license — kept separate from this repo so the
-firmware's license doesn't have to match the hardware's (see
-[License](#license) below).
+released under the MIT license.
 
 ## License
 
-This repo covers two different kinds of thing, deliberately under two
-different licenses:
-
 - **Case and PCB** (everything in [`Case/`](Case) and [`PCB/`](PCB)) are
-  licensed under the [CERN Open Hardware Licence v2 - Permissive](LICENSE),
-  the same license the original [TOTEM](https://github.com/GEIGEIGEIST/TOTEM)
-  hardware design uses. This repo's hardware is a modified derivative of
-  that design — see the [`LICENSE`](LICENSE) file for the specifics of
-  what changed.
-- **Firmware** is not included as source here (see [Firmware](#firmware))
-  — the buildable source lives in
+  licensed [CC BY-SA 4.0](LICENSE): use, modify, and share freely, with
+  credit, and any modified version you share stays under the same license.
+- **Firmware** is not included as source here (see [Firmware](#firmware)) —
+  the buildable source lives in
   [zmk-config-spirittotem](https://github.com/The-Architects727/zmk-config-spirittotem)
   under the MIT license. The pre-built `.uf2` binaries in
   [`Firmware/Colemak/`](Firmware/Colemak) are just compiled output from
