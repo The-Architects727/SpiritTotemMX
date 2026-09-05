@@ -28,22 +28,34 @@ the full assembly guide below.
 
 ## Bill of materials
 
+Links are the specific listings used for this build, not strict
+requirements — quantities are usually a bulk pack, and most of these have
+plenty of equivalent alternatives if a listing goes stale.
+
 - 1 PCB — the left half, right half, and dongle are all panelized onto a
-  single board you order as one piece
-- 38× key switches
-- 38× Kailh hot-swap sockets
-- 38× diodes (through-hole or SMD)
-- 3× Seeed Studio XIAO nRF52840 boards, with headers on
+  single board you order as one piece (see [`PCB/`](PCB))
+- 38× key switches — [Keychron Super Switch, tactile, 110-pack](https://www.amazon.com/dp/B0F9FJDWGZ)
+- 38× Kailh hot-swap sockets — [Kailh CPG151101S11, 50-pack](https://www.amazon.com/dp/B0BVH6M5FP)
+- 38× diodes (through-hole or SMD) — [1N4001, DO-41, 120-pack](https://www.amazon.com/dp/B0DN5YNFHQ)
+  (1N4148 is the more common choice for keyboard matrices, but 1N4001 works
+  fine here too)
+- 3× Seeed Studio XIAO nRF52840 boards, with headers on —
+  [Seeed Studio, 3-pack](https://www.seeedstudio.com/Seeed-Studio-XIAO-nRF52840-3PCS-p-5921.html)
 - 2× JST 2.0 female wire connectors (battery leads for the two hand boards)
-- 4× JST 2.0 male PCB connectors
+  and 4× JST 2.0 male PCB connectors — one kit covers both:
+  [JST-PH 2.0mm 2-pin, male+female with 10cm wire, 20 sets](https://www.amazon.com/dp/B0D7Q9HJLQ)
 - 2× through-hole PCB slide switches (mounted sideways so they poke out the
-  side of the case)
-- 2.54mm pitch headers for the XIAO standoffs — 60 pin positions total
-- 2× 3.7V JST 2.0 batteries, no more than 7mm thick × 20mm wide × 45mm long
+  side of the case) — [Chanzon SPDT 3mm slide switch, 70-pack](https://www.amazon.com/dp/B09R43HCY3)
+- 2.54mm pitch headers for the XIAO standoffs — 60 pin positions total —
+  [2.54mm male/female pin headers, 30-pack](https://www.amazon.com/dp/B0FCTSSLK9)
+- 2× 3.7V JST 2.0 batteries, no more than 7mm thick × 20mm wide × 45mm long —
+  [AKZYTUE 3.7V 750mAh LiPo, JST PH2.0](https://www.amazon.com/dp/B07TWHFW82)
 - 2× 5mm LEDs
 - 2× 330Ω resistors (through-hole or SMD)
-- M2 brass heat-set inserts
-- M2 screws: 6× 12mm, 1× 4mm
+- M2 brass heat-set inserts —
+  [Pofsnnx M2 brass heat-set inserts, 250-pack](https://www.amazon.com/dp/B0FJXLNMLM)
+- M2 screws: 6× 12mm, 1× 4mm —
+  [KADRICK M2 hex socket button head screw assortment, 1000-pack](https://www.amazon.com/dp/B0DRCG3418)
 
 ## Assembly
 
