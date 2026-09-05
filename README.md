@@ -83,9 +83,10 @@ plenty of equivalent alternatives if a listing goes stale.
   mirror a second copy of each in your slicer for the other hand.
   `Switchplate.stl` and `Switchplate-left.stl` are **not** mirror images of
   each other — print each one exactly once.
-- [`Case/KeyCaps/`](Case/KeyCaps) has the keycap profiles (`Home`, `Thumb`,
-  `Top-Bottom`), designed to be printed flat on the bed while still having a
-  swept (sculpted) profile — no supports needed despite the curve.
+- [`Case/KeyCaps/`](Case/KeyCaps) has the keycap profiles, designed to be
+  printed flat on the bed while still having a swept (sculpted) profile —
+  no supports needed despite the curve. Print 12× `Home`, 20×
+  `Top-Bottom`, and 6× `Thumb` (38 keycaps total).
 - Press a 2mm brass insert into the hole in the dongle base's dovetail.
 - Press a heat-set insert into every standoff hole in each hand's bottom
   case piece.
