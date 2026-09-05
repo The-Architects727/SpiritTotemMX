@@ -1,0 +1,14 @@
+# KiCad auto-generated/local files
+*.kicad_prl
+fp-info-cache
+
+# Superseded by PCB/production/ (current fabrication export)
+PCB/SpiritTotemMX.kicad_pcb.zip
+
+# Personal/timestamped backup snapshots (KiCad plugin, editor autosaves)
+PCB/SpiritTotemMX-backups/
+PCB/production/backups/
+
+# OS cruft
+.DS_Store
+Thumbs.db
