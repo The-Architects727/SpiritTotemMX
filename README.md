@@ -98,7 +98,8 @@ After this first pairing, the two halves can be powered on in any order.
 ## Keymap
 
 Colemak-DH based, 5 layers. `...` means "transparent" (falls through to
-the layer below).
+the layer below). A printable version with a visual key-by-key diagram of
+every layer is at [`keymap-reference.pdf`](keymap-reference.pdf).
 
 ### Base
 

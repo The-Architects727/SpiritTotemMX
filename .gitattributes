@@ -1,0 +1,7 @@
+# Force binary handling regardless of a cloner's local core.autocrlf -
+# without this, Windows checkouts with autocrlf=true will rewrite bare
+# LF bytes to CRLF in these files on checkout, corrupting them.
+*.pdf -text
+*.uf2 -text
+*.stl -text
+*.zip -text
