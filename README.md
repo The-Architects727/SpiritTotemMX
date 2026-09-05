@@ -152,16 +152,20 @@ switches to the Game layer.
 *Toggled from Fun's `ToGame` key; `ToBase` returns to Base.*
 
 ```
-  T      Q      W      E      R        Y      U      I      O      P
-  G      A      S      D      F        H      J      K      L      ;
- ...     B      Z      X      C      V        N      M      ,      .      /     ...
+  T      Q      X      E      R        Y      U      I      O      P
+  G      A      W      D      F        H      J      K      L      ;
+ ...     B      Z      S      C      V        N      M      ,      .      /     ...
     Shift      Ctrl     Space       Enter      Bspc     ToBase
 ```
 
-Standard QWERTY with the thumb cluster set up for typical games (Shift,
-Ctrl, Space on the left; Enter, Backspace on the right) rather than
-mod-taps, since a key's brief "tap" behavior is exactly the kind of thing
-you don't want fighting with WASD-style movement.
+QWERTY, except W/S/X are rotated one column so A, W, and D all land on the
+home row together with S directly beneath — this columnar layout puts W a
+row above A/D by default, which doesn't rest as naturally for WASD as a
+traditional keyboard's row stagger does. X moves up to W's old spot. The
+thumb cluster is set up for typical games (Shift, Ctrl, Space on the left;
+Enter, Backspace on the right) rather than mod-taps, since a key's brief
+"tap" behavior is exactly the kind of thing you don't want fighting with
+WASD-style movement.
 
 ## Firmware
 
